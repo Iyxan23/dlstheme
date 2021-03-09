@@ -1,29 +1,9 @@
-#darkhub
+# DLS Theme
+A google chrome extension to change DLS's appearance. For those who came here out of nowhere and don't know what DLS is, just leave lmao
 
-``` 
-  ▓▓▓▓▓▓▓▓▓▓
- ░▓ about  ▓ a crude google chrome extension to darken github.com
- ░▓ author ▓ xero <x@xero.nu>
- ░▓ code   ▓ http://code.xero.nu/darkhub
- ░▓ mirror ▓ http://git.io/darkhub
- ░▓▓▓▓▓▓▓▓▓▓
- ░░░░░░░░░░
-```
-
-### chrome webstore
-
-free to download and install via the [chrome webstore](https://chrome.google.com/webstore/detail/darkhub/dkjhglblnbkbllapljjhjjggnoijejdj)
-
-## manual installation:
-
-- navigate to `chrome://extensions/`
-- choose `load unpacked extension...`
-- browse to the repository location
-- click `ok`
-
-## stylish
-you can also apply this theme with [stylish](https://userstyles.org/styles/116810/darkhub-github-com)
-
-![](https://raw.github.com/xero/darkhub/master/preview.png)
-
-find more of my userstyles at [git.io/stylez](https://git.io/stylez)
+## Manual Installation
+ - Navigate to chrome://extensions/
+ - Enable Developer Mode (If you haven't already)
+ - Click the "Load Unpacked" button
+ - Browse to the cloned repository location
+ - Click `ok`
