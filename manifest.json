@@ -21,7 +21,7 @@
             "all_frames": false, 
             "js": ["js/glsmp.js"], 
             "matches": ["*://www.e.smpialazhar21.sch.id/*"],
-            "run_at": "document_start" 
+            "run_at": "document_end" 
         } 
     ],
     "web_accessible_resources": [

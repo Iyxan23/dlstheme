@@ -1,5 +1,4 @@
 var link = document.createElement('link');
 link.href =  chrome.extension.getURL('css/glsmp.min.css');
 link.rel = 'stylesheet';
-head = document.getElementsByTagName ("head")[0] || document.documentElement;
-head.insertBefore(link, head.firstChild);
+document.querySelector("head").appendChild(link);
