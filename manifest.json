@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "darkhub",
-    "description": "a crude google chrome extension to darken github.com",
-    "version": "1.1.1",
-    "author": "xero harrison",
+    "name": "DLS Theme",
+    "description": "A simple chrome extension used to Inject CSS codes into DLS to change it's appearance",
+    "version": "1.0",
+    "author": "Iyxan23",
     "permissions": [
         "tabs",
         "<all_urls>",
@@ -12,23 +12,20 @@
         "https://*/*"
     ],
     "icons": { 
-        "16": "darkhub-16.png",
-        "48": "darkhub-48.png",
-        "128": "darkhub-128.png" 
+        "16": "dlstheme-16.png",
+        "48": "dlstheme-48.png",
+        "128": "dlstheme-128.png" 
     },
     "content_scripts": [ 
         { 
             "all_frames": false, 
-            "js": [ "js/start.js"], 
-            "matches": [ 
-                "*://*.github.com/*",
-                "*://*.githubusercontent.com/*"
-            ],
+            "js": ["js/glsmp.js"], 
+            "matches": ["*://www.e.smpialazhar21.sch.id/*"],
             "run_at": "document_start" 
         } 
     ],
     "web_accessible_resources": [
-        "js/start.js",
-        "css/darkhub.min.css"
+        "js/glsmp.js",
+        "css/glsmp.min.css"
     ]
 }

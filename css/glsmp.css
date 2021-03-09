@@ -1,0 +1,227 @@
+.navbar-brand::after {
+   content: "github.com/Iyxan23/dlstheme";
+   font-size: medium;
+   position: absolute;
+   right: 10px;
+}
+
+/* Name display */
+section.content > div:nth-child(1) {
+  color: white;
+  text-align: center;
+}
+
+/* hr nya */
+section.content > hr:nth-child(3) {
+  width: 80%;
+}
+
+section.content > div:nth-child(1) > h5:nth-child(2) > hr:nth-child(1) {
+  width: 90%;
+}
+
+/* Informasi Text */
+div.row:nth-child(4) > div:nth-child(1) > h5:nth-child(1) {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+/* Informasi Text */
+
+/* fix tinymce */
+#tinymce {
+  background: white;
+}
+
+.col-xs-4 {
+  width: 20%;
+}
+
+a {
+  color: #DDF;
+}
+
+a:hover {
+  color: #EEF;
+}
+
+a:visited {
+  color: #EDF;
+}
+
+.btn {
+  background: transparent !important;
+  color: white;
+}
+
+.waves-float {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn:hover {
+  background: transparent !important;
+  color: white;
+}
+
+section.content {
+  background: transparent !important;
+}
+
+div.row:nth-child(4) > div:nth-child(1) > h5:nth-child(1) {
+  color: white;
+  margin-left: 10px;
+}
+
+.menu_depan_s {
+/*
+  background: rgba( 0, 0, 0, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8.5px );
+  -webkit-backdrop-filter: blur( 8.5px );
+  border-radius: 7.5px;
+  color: #FFF;  */
+
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  text-shadow: 0 3px 4px rgba(0,0,0,.1);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+  transition: background 0.25s ease-in-out;
+}
+
+.menu_depan_s:hover {
+  background: rgba( 255, 255, 255, 0.5 );
+}
+
+/* Background gradient */
+/* Kadang di tab Materi & Tugas & Ujian agak aneh, jadi htmlnya juga harus kasi bg */
+/*
+html {  / tag html kena collision ama tinymce's editor /
+  background: rgb(166,70,252);
+  background: linear-gradient(0deg, rgba(166,70,252,1) 0%, rgba(123,27,207,1) 11%, rgba(63,172,251,1) 100%);
+} */
+
+body {  /* tag html kena collision ama tinymce's editor */
+  background: rgb(166,70,252);
+  background: linear-gradient(0deg, rgba(166,70,252,1) 0%, rgba(123,27,207,1) 11%, rgba(63,172,251,1) 100%);
+}
+
+/* Optimized buat homepagenya */
+body > section:nth-child(4) {
+/*background: radial-gradient(circle, #6722cc 40%, #427bd5 52%);*/
+  background: rgb(166,70,252); /* fallback */
+  background: linear-gradient(0deg, rgba(166,70,252,1) 0%, rgba(123,27,207,1) 11%, rgba(63,172,251,1) 100%);
+}
+
+/* navbar */
+.navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(63,172,251, 0.75) !important;
+}
+
+/* Card Informasi */
+div.col-md-12 > div:nth-child(1) {
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+}
+
+/* Sidebar Stuff */
+.slimScrollDiv {
+  background-color: rgba(255,255,255,0.75);
+}
+
+#leftsidebar {
+  background-color: rgba(255,255,255,0);
+  backdrop-filter: blur( 10px );
+}
+
+.legal {
+  background-color: rgba(255,255,255,0.75) !important;
+}
+
+.sidebar .user-info {
+/*background: linear-gradient(to right, #042753, #0d4859);*/
+  background: rgba(33,154,227,0.75);
+}
+
+.toggled > span:nth-child(2) {
+  color: #427bd5 !important;
+}
+
+.toggled > i:nth-child(1) {
+  color: #427bd5 !important;
+}
+
+/* .header kena collision ama informasi/detail, jadi harus dikasi pathnya */
+/*
+.header {
+  background-color: rgba(255,255,255,0.75) !important;
+}*/
+
+.theme-red .sidebar .legal .copyright a {
+  color: #333 !important;
+}
+
+
+/* Materi & Tugas & Ujian */
+section.content > h3:nth-child(1) {
+  color: white;
+}
+
+.content > h4:nth-child(1) {
+  color: white;
+}
+
+.form-control {
+  margin-top: 16px;
+
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 16px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 5px;
+  border: none;
+  color: white;
+  transition: all 500ms ease-in-out;
+}
+
+.frm-control:focus {
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
+}
+
+.form-control[type=text]::placeholder {
+  color: white;
+  opacity: 1;  /* Firefox */
+}
+
+.card .header {
+    margin-top: 0px;
+    color: white;
+    padding: 0px;
+    position: relative;
+    border-bottom: none;
+}
+
+.card .header h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+/* informasi/detail */
+.body {
+  color: white !important;
+} 
