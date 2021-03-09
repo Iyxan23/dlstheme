@@ -1,8 +1,9 @@
 .navbar-brand::after {
-   content: "github.com/Iyxan23/dlstheme";
-   font-size: medium;
-   position: absolute;
-   right: 10px;
+  content: "github.com/Iyxan23/dlstheme";
+  font-size: medium;
+  position: absolute;
+  right: 10px;
+  font-family: monospace;
 }
 
 /* Name display */
@@ -74,21 +75,13 @@ div.row:nth-child(4) > div:nth-child(1) > h5:nth-child(1) {
 }
 
 .menu_depan_s {
-/*
-  background: rgba( 0, 0, 0, 0.5 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 8.5px );
-  -webkit-backdrop-filter: blur( 8.5px );
-  border-radius: 7.5px;
-  color: #FFF;  */
-
-  background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  text-shadow: 0 3px 4px rgba(0,0,0,.1);
-  backdrop-filter: blur( 4px );
-  -webkit-backdrop-filter: blur( 4px );
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  text-shadow: 0 3px 4px rgba(0, 0, 0, .1);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
   transition: background 0.25s ease-in-out;
 }
@@ -206,11 +199,11 @@ section.content > h3:nth-child(1) {
 }
 
 .card .header {
-    margin-top: 0px;
-    color: white;
-    padding: 0px;
-    position: relative;
-    border-bottom: none;
+  margin-top: 0px;
+  color: white;
+  padding: 0px;
+  position: relative;
+  border-bottom: none;
 }
 
 .card .header h2 {
